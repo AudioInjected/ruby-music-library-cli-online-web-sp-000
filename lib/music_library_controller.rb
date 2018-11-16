@@ -23,6 +23,12 @@ class MusicLibraryController
       if input == "list artists"
         self.list_artists
       end
+      if input == "list genres"
+        self.list_genres
+      end
+      if input == "list artist"
+        self.list_songs_by_artist
+      end
     end
 
   end
